@@ -2,6 +2,8 @@ package com.pentalog.exercitiu1;
 
 
 import static org.junit.Assert.assertEquals;
+import java.io.*;
+import java.util.*;
 
 
 public class Ex1 {
@@ -15,9 +17,32 @@ public class Ex1 {
 
   static String textDeCitit = "He has a car, but the car it is old but he should sell it.";
 
+  public static void main (String[] args) throws IOException{
 
-  public static void main (String[] args) {
+    /*FileInputStream file=new FileInputStream("Exercitiu1.txt");
+    InputStreamReader file_char=new InputStreamReader(file);
+    BufferedReader buf=new BufferedReader(file_char);*/
 
+    int numar;
+    //String strings[]=buf.readLine();
+    textDeCitit = textDeCitit.toLowerCase();
+    String cuvinte[] = textDeCitit.split(" ");
+
+    System.out.println("Cuvintele duplicate ");
+    for(int i = 0; i < cuvinte.length; i++)
+    {
+      numar = 1;
+      for(int j = i+1; j < cuvinte.length; j++)
+      {
+        if(cuvinte[i].equals(cuvinte[j]))
+        {
+          numar++;
+          cuvinte[j] = "0";
+        }
+      }
+      if(numar > 1 && cuvinte[i] != "0")
+        System.out.println(cuvinte[i]);
+    }
     verificaCuvantul(returneazaPrimulCuvantDuplicat());
   }
 
