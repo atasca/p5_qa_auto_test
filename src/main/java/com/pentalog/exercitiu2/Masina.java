@@ -2,7 +2,7 @@ package com.pentalog.exercitiu2;
 
 public class Masina {
     int viteza;
-    int pret;
+    float pret;
     String culoare;
     public Masina(){}
     public Masina(int viteza, int pret, String culoare){
@@ -22,11 +22,11 @@ public class Masina {
         this.viteza = viteza;
     }
 
-    public double getPret(){
+    public float getPret(){
         return pret;
     }
 
-    public int setPret(int pret){
+    public float setPret(float pret){
         return this.pret=pret;
     }
 
