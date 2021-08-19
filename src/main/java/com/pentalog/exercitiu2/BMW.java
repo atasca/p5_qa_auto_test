@@ -8,16 +8,17 @@ public class BMW  extends Masina{
 ◦ calculeazaPret();//Din pretul calculat in clasa Masina, scade discountul producatorului
 
      */
-    private String an;
+    private int an;
     private double discountProducator;
 
     @Override
     public double calculeazaPret(double pret) {
         return super.calculeazaPret(pret - discountProducator);
     }
-  public BMW(String an, double discountProducator){
-        this.an = an;
+  public BMW(int an, double discountProducator){
+      super(80,"rosu");
+      this.an = an;
         this.discountProducator= discountProducator;
-        super(9,"maro");
+
     }
 }

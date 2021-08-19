@@ -12,7 +12,7 @@ public class PropriaMeaReprezentanta {
     public static void main(String[] args) {
 
  SUV suv = new SUV(7);
- BMW bmw = new BMW(1700, 6);
+ BMW bmw = new BMW(1990, 6);
  Masina masina = new Masina(50, "neagru");
 
     }
