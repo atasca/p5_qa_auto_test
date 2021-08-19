@@ -23,12 +23,33 @@ public class Ex1 {
 
 
   static String returneazaPrimulCuvantDuplicat () {
-    //rezolvare
-    return "rezultat";
+    int count=1;
+
+    for(int i=0;i<=s.length;i++)
+    {
+      for(int j=i+1;j<s.length;j++) {
+        if (s[i].equals(s[j]) && s[i] != "-1") {
+          s[j] = "-1";
+          count++;
+          if (count == 2)
+            return s[i];
+        }
+      }
+    }
+
+    if(count>1 && s[i]!="-1")
+    {
+      System.out.println(s[i]+" "+count);
+      s[i]="-1";
+    }
+    count=1;
+  }
+
+    return s[i];
   }
 
 
   public static void verificaCuvantul (String rezultat) {
-    assertEquals("xxxx", rezultat);
+    assertEquals("car", rezultat);
   }
 }
