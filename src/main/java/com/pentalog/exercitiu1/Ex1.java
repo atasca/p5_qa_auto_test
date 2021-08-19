@@ -1,6 +1,10 @@
 package com.pentalog.exercitiu1;
 
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -17,18 +21,36 @@ public class Ex1 {
 
 
   public static void main (String[] args) {
-
-    verificaCuvantul(returneazaPrimulCuvantDuplicat());
+      verificaCuvantul(returneazaPrimulCuvantDuplicat());
   }
 
 
   static String returneazaPrimulCuvantDuplicat () {
     //rezolvare
-    return "rezultat";
-  }
+      String str = new String(textDeCitit);
+      str = str.replaceAll(",","");
+      String[] splited = str.split("\\s+");
+         OUTER: for(int i=0; i<splited.length; i++){
+           String saved = "";
+           saved=splited[i];
+
+           for (int j=i+1; j < splited.length; j++) {
+                if(saved.equals(splited[j]))
+                {
+                  System.out.println(saved);
+                  return saved;
+                }
+           }
+         }
+
+     {
+
+    }
+    return null;
+}
 
 
   public static void verificaCuvantul (String rezultat) {
-    assertEquals("xxxx", rezultat);
+    assertEquals("car", rezultat);
   }
 }
