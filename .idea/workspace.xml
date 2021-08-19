@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a92aa52-5622-43ef-a828-e475c3157465" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/p5_qa_auto_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/p5_qa_auto_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-    </list>
+    <list default="true" id="6a92aa52-5622-43ef-a828-e475c3157465" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +34,6 @@
   <component name="ProjectId" id="1woRDG8WhSOjnXjWJAHIyPqZcvk" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -63,6 +59,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App" />
@@ -72,6 +79,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -86,6 +94,7 @@
       <workItem from="1629123882264" duration="166000" />
       <workItem from="1629124264965" duration="1477000" />
       <workItem from="1629275184490" duration="578000" />
+      <workItem from="1629385738764" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="initial mvn project">
       <created>1629124377998</created>
@@ -105,60 +114,10 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial mvn project" />
     <option name="LAST_COMMIT_MESSAGE" value="initial mvn project" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="604" y="219" key="#Notifications" timestamp="1629124565038">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="604" y="219" key="#Notifications/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124565038" />
-    <state x="604" y="219" key="#Project_Structure" timestamp="1629124291689">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="604" y="219" key="#Project_Structure/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124291689" />
-    <state x="598" y="156" key="CommitChangelistDialog2" timestamp="1629124547612">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="598" y="156" key="CommitChangelistDialog2/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124547612" />
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom" timestamp="1629188772128">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629188772128" />
-    <state width="1878" height="287" key="GridCell.Tab.0.center" timestamp="1629188772127">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629188772127" />
-    <state width="1878" height="287" key="GridCell.Tab.0.left" timestamp="1629188772126">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629188772126" />
-    <state width="1878" height="287" key="GridCell.Tab.0.right" timestamp="1629188772127">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state width="1878" height="287" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629188772127" />
-    <state x="801" y="282" key="RollbackChangesDialog" timestamp="1629124326962">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="801" y="282" key="RollbackChangesDialog/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124326962" />
-    <state x="604" y="282" key="Vcs.Push.Dialog.v2" timestamp="1629124603368">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="604" y="282" key="Vcs.Push.Dialog.v2/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124603368" />
-    <state x="749" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629275190812">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="749" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629275190812" />
-    <state x="744" y="348" key="git4idea.merge.GitMergeDialog" timestamp="1629275230290">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="744" y="348" key="git4idea.merge.GitMergeDialog/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629275230290" />
-    <state x="347" y="247" key="new project wizard" timestamp="1629124045375">
-      <screen x="0" y="25" width="1920" height="1055" />
-    </state>
-    <state x="347" y="247" key="new project wizard/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124045375" />
   </component>
 </project>
