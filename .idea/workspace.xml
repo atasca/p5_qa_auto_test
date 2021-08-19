@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a92aa52-5622-43ef-a828-e475c3157465" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/Masina.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/PropriaMeaReprezentanta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/SUV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/Tir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu1/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu1/Ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/PropriaMeaReprezentanta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/PropriaMeaReprezentanta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +119,7 @@
       <workItem from="1629124264965" duration="1477000" />
       <workItem from="1629275184490" duration="578000" />
       <workItem from="1629385738764" duration="52000" />
-      <workItem from="1629385811822" duration="4733000" />
+      <workItem from="1629385811822" duration="5207000" />
     </task>
     <task id="LOCAL-00001" summary="initial mvn project">
       <created>1629124377998</created>
