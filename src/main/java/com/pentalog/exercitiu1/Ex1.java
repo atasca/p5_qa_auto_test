@@ -24,29 +24,29 @@ public class Ex1 {
 
   static String returneazaPrimulCuvantDuplicat () {
     int numara;
-
-    String rezultat[] = textDeCitit.split(" ");
+    String rezultat = "";
+    String split_text[] = textDeCitit.split(" ");
 
 
     System.out.println("Cuvinte duplicate: ");
 
-    for(int i = 0; i < rezultat.length; i++) {
+    for(int i = 0; i < split_text.length; i++) {
       numara = 1;
-      for(int j = i+1; j < rezultat.length; j++) {
-        if(rezultat[i].equals(rezultat[j])) {
+      for(int j = i+1; j < split_text.length; j++) {
+        if(split_text[i].equals(split_text[j])) {
           numara++;
 
-          rezultat[j] = "0";
+          split_text[j] = "0";
         }
       }
 
-      if(numara > 1 && rezultat[i] != "0")
-        System.out.println(rezultat[i]);
-
-
+      if(numara > 1 && split_text[i] != "0") {
+        rezultat = split_text[i];
+        System.out.println(split_text[i]);
+      }
     }
 
-    return "rezultat";
+    return rezultat;
   }
 
 
@@ -54,3 +54,4 @@ public class Ex1 {
     assertEquals("but", rezultat);
   }
 }
+
