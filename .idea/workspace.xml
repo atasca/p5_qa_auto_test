@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a92aa52-5622-43ef-a828-e475c3157465" name="Default Changelist" comment="Initial solutions">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6a92aa52-5622-43ef-a828-e475c3157465" name="Default Changelist" comment="Adaugat search fisier intr-un folder ca sa nu scrii de mana tot carnatul ala de link :D">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu1/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu1/Ex1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/BMW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/BMW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/Masina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/Masina.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.Ex1">
+  <component name="RunManager" selected="Application.PropriaMeaReprezentanta">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pentalog.App" />
       <module name="p5_qa_auto_test" />
@@ -115,8 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.PropriaMeaReprezentanta" />
+        <item itemvalue="Application.Ex1" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
@@ -151,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629389131628</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adaugat search fisier intr-un folder ca sa nu scrii de mana tot carnatul ala de link :D">
+      <created>1629390369665</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629390369665</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +179,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial mvn project" />
     <MESSAGE value="Initial solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial solutions" />
+    <MESSAGE value="Adaugat search fisier intr-un folder ca sa nu scrii de mana tot carnatul ala de link :D" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adaugat search fisier intr-un folder ca sa nu scrii de mana tot carnatul ala de link :D" />
   </component>
 </project>

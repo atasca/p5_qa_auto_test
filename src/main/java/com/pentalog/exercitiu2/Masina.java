@@ -11,5 +11,7 @@ public class Masina {
         this.culoare = culoare;
     }
 
-    double calculeazaPret(){ return this.pret; };
+    double calculeazaPret() {
+        return this.pret;
+    }
 }
