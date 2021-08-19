@@ -19,17 +19,17 @@ public class Ex1 {
    */
 
   static String textDeCitit = "He has a car, but the car it is old but he should sell it.";
-
+  static String path="";
 
   public static void main (String[] args) {
-
+    //System.out.println(returneazaPrimulCuvantDuplicat());
     verificaCuvantul(returneazaPrimulCuvantDuplicat());
   }
 
-   static String citesteDinFisier(String numeFisier){
+   static String citesteDinFisier(String pathToFile){
     StringBuilder answer= new StringBuilder();
     try{
-      File readFile=new File(numeFisier);
+      File readFile=new File(pathToFile);
       Scanner reader=new Scanner(readFile);
       while(reader.hasNextLine()){
         answer.append(reader.nextLine());
@@ -43,13 +43,31 @@ public class Ex1 {
     return answer.toString();
   }
 
-  static String returneazaPrimulCuvantDuplicat () {
-    textDeCitit=citesteDinFisier("C:\\Users\\Robert\\OneDrive\\Documents\\GitHub\\p5_qa_auto_test\\src\\main\\java\\com\\pentalog\\exercitiu1\\Exercitiu1.txt");
-    textDeCitit=textDeCitit.replaceAll("[^a-zA-Z0-9]"," ");
-    System.out.println(textDeCitit);
-    String []wordsArray=textDeCitit.split("\\s+");
-    Set<String> uniqueWords= new HashSet<>();
+   static String pathToFile(String name,File file){
+    File[] list = file.listFiles();
+    if(list!= null){
+      for(File f:list){
+        //System.out.println(f.getAbsolutePath());
+        if(f.isDirectory()){
+          pathToFile(name,f);
+        }else if(name.equalsIgnoreCase(file.getName())){
+          path=f.getAbsolutePath();
+          return path;
+        }
+      }
+    }
+    return "pathNotFound";
+   }
 
+  static String returneazaPrimulCuvantDuplicat () {
+    path="C:\\Users\\Robert\\OneDrive\\Documents\\GitHub\\p5_qa_auto_test\\src\\main\\java\\com\\pentalog\\exercitiu1\\Exercitiu1.txt";
+
+    /*Search for a file starting from a path. E lent da macar merge... ¯\_(ツ)_/¯ Nu stiu cum sa fac altfel sa nu pun full path... */
+    //path=pathToFile("Exercitiu1.txt",new File("C:\\"));
+    textDeCitit=citesteDinFisier(path);
+    String []wordsArray=textDeCitit.split("[^a-zA-Z0-9]+");
+
+    Set<String> uniqueWords= new HashSet<>();
     for(String word:wordsArray){
       if(uniqueWords.contains(word.toLowerCase(Locale.ROOT))){
         return word.toLowerCase(Locale.ROOT);
@@ -59,7 +77,6 @@ public class Ex1 {
     }
     return "no duplicate word found";
   }
-
 
   public static void verificaCuvantul (String rezultat) {
     assertEquals("car", rezultat);
