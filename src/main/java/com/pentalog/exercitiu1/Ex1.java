@@ -1,6 +1,11 @@
 package com.pentalog.exercitiu1;
 
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -13,7 +18,7 @@ public class Ex1 {
    * Se acorda punctaj bonus pentru citirea din fisierul Exercitiu1.txt
    */
 
-  static String textDeCitit = "He has a car, but the car it is old but he should sell it.";
+  static String textDeCitit = "he has a car, but the car it is old but he should sell it.";
 
 
   public static void main (String[] args) {
@@ -23,12 +28,24 @@ public class Ex1 {
 
 
   static String returneazaPrimulCuvantDuplicat () {
-    //rezolvare
-    return "rezultat";
+
+
+    String[] lst = textDeCitit.split(" ");
+
+    for(int i=0;i<lst.length-1;i++)
+    {
+      for(int j=i+1;j<lst.length;j++)
+        if(lst[i] == lst[j])
+          return lst[i];
+    }
+
+    return "nuExista";
+
+
   }
 
 
   public static void verificaCuvantul (String rezultat) {
-    assertEquals("xxxx", rezultat);
+    assertEquals("he", rezultat);
   }
 }
