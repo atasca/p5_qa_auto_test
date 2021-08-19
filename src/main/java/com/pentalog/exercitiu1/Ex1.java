@@ -23,12 +23,22 @@ public class Ex1 {
 
 
   static String returneazaPrimulCuvantDuplicat () {
-    //rezolvare
-    return "rezultat";
+    textDeCitit = textDeCitit.toLowerCase();
+    String words[] = textDeCitit.replaceFirst(",", "").split(" ");
+
+    for(int i = 0; i<words.length; i++){
+      for(int j=i+1; j<words.length; j++){
+        if (words[i].equals(words[j])) {
+          return words[i];
+        }
+      }
+    }
+
+    return "";
   }
 
 
   public static void verificaCuvantul (String rezultat) {
-    assertEquals("xxxx", rezultat);
+    assertEquals("he", rezultat);
   }
 }
