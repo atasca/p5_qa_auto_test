@@ -23,12 +23,34 @@ public class Ex1 {
 
 
   static String returneazaPrimulCuvantDuplicat () {
-    //rezolvare
+    int numara;
+
+    String rezultat[] = textDeCitit.split(" ");
+
+
+    System.out.println("Cuvinte duplicate: ");
+
+    for(int i = 0; i < rezultat.length; i++) {
+      numara = 1;
+      for(int j = i+1; j < rezultat.length; j++) {
+        if(rezultat[i].equals(rezultat[j])) {
+          numara++;
+
+          rezultat[j] = "0";
+        }
+      }
+
+      if(numara > 1 && rezultat[i] != "0")
+        System.out.println(rezultat[i]);
+
+
+    }
+
     return "rezultat";
   }
 
 
   public static void verificaCuvantul (String rezultat) {
-    assertEquals("xxxx", rezultat);
+    assertEquals("but", rezultat);
   }
 }
