@@ -1,6 +1,8 @@
 package com.pentalog.exercitiu1;
 
 
+import java.util.HashSet;
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -13,22 +15,32 @@ public class Ex1 {
    * Se acorda punctaj bonus pentru citirea din fisierul Exercitiu1.txt
    */
 
-  static String textDeCitit = "He has a car, but the car it is old but he should sell it.";
+  static String textDeCitit = "He has a car but the car it is old but he should sell it.";
 
 
   public static void main (String[] args) {
-
-    verificaCuvantul(returneazaPrimulCuvantDuplicat());
+    String rezultat = returneazaPrimulCuvantDuplicat(textDeCitit);
+    System.out.println("Rezultat " + rezultat);
+    verificaCuvantul(rezultat);
   }
 
 
-  static String returneazaPrimulCuvantDuplicat () {
-    //rezolvare
-    return "rezultat";
+  static String returneazaPrimulCuvantDuplicat(String textDeCitit) {
+    String rezultat = "Niciun cuvant duplicat";
+    String splitText[] = textDeCitit.split(" ");
+    System.out.println(splitText);
+    HashSet words = new HashSet<>();
+    for(int i=0; i<splitText.length; i++){
+      if(words.contains(splitText[i])){
+        rezultat = splitText[i];
+        break;
+      }
+      words.add(splitText[i]);
+    }
+    return rezultat;
   }
 
-
-  public static void verificaCuvantul (String rezultat) {
-    assertEquals("xxxx", rezultat);
+  public static void verificaCuvantul (String rez) {
+    assertEquals("car", rez);
   }
 }
