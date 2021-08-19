@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a92aa52-5622-43ef-a828-e475c3157465" name="Default Changelist" comment="initial mvn project">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="6a92aa52-5622-43ef-a828-e475c3157465" name="Default Changelist" comment="rezolvare exercitiul 1">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/BMW.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/Masina.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/PropriaMeaReprezentanta.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/Suv.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu2/Tir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu1/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pentalog/exercitiu1/Ex1.java" afterDir="false" />
     </list>
@@ -100,6 +97,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PropriaMeaReprezentanta (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.pentalog.exercitiu2.PropriaMeaReprezentanta" />
+      <module name="p5_qa_auto_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pentalog.exercitiu2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PropriaMeaReprezentanta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.pentalog.PropriaMeaReprezentanta" />
       <module name="p5_qa_auto_test" />
@@ -116,8 +126,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Ex1" />
+        <item itemvalue="Application.PropriaMeaReprezentanta (1)" />
         <item itemvalue="Application.PropriaMeaReprezentanta" />
-        <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.App" />
       </list>
@@ -137,7 +147,7 @@
       <workItem from="1629123882264" duration="166000" />
       <workItem from="1629124264965" duration="1477000" />
       <workItem from="1629275184490" duration="578000" />
-      <workItem from="1629385612719" duration="1860000" />
+      <workItem from="1629385612719" duration="3667000" />
     </task>
     <task id="LOCAL-00001" summary="initial mvn project">
       <created>1629124377998</created>
@@ -153,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629124547885</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="rezolvare exercitiul 1">
+      <created>1629388106885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629388106885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,7 +214,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial mvn project" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial mvn project" />
+    <MESSAGE value="rezolvare exercitiul 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="rezolvare exercitiul 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="604" y="219" key="#Notifications" timestamp="1629124565038">
@@ -216,40 +234,44 @@
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="606" y="365" width="467" height="276" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1680.952@0.23.1680.952" timestamp="1629387272847" />
-    <state x="523" y="141" key="CommitChangelistDialog2" timestamp="1629388053599">
+    <state x="523" y="141" key="CommitChangelistDialog2" timestamp="1629388421198">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="598" y="156" key="CommitChangelistDialog2/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124547612" />
-    <state x="523" y="141" key="CommitChangelistDialog2/0.23.1680.952@0.23.1680.952" timestamp="1629388053599" />
-    <state width="1638" height="337" key="GridCell.Tab.0.bottom" timestamp="1629388053631">
+    <state x="523" y="141" key="CommitChangelistDialog2/0.23.1680.952@0.23.1680.952" timestamp="1629388421198" />
+    <state x="257" y="124" key="DiffContextDialog" timestamp="1629388401839">
+      <screen x="0" y="23" width="1680" height="952" />
+    </state>
+    <state x="257" y="124" key="DiffContextDialog/0.23.1680.952@0.23.1680.952" timestamp="1629388401839" />
+    <state width="1638" height="337" key="GridCell.Tab.0.bottom" timestamp="1629390578460">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state width="1878" height="287" key="GridCell.Tab.0.bottom/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629188772128" />
-    <state width="1638" height="337" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1629388053631" />
-    <state width="1638" height="337" key="GridCell.Tab.0.center" timestamp="1629388053630">
+    <state width="1638" height="337" key="GridCell.Tab.0.bottom/0.23.1680.952@0.23.1680.952" timestamp="1629390578460" />
+    <state width="1638" height="337" key="GridCell.Tab.0.center" timestamp="1629390578459">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state width="1878" height="287" key="GridCell.Tab.0.center/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629188772127" />
-    <state width="1638" height="337" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1629388053630" />
-    <state width="1638" height="337" key="GridCell.Tab.0.left" timestamp="1629388053630">
+    <state width="1638" height="337" key="GridCell.Tab.0.center/0.23.1680.952@0.23.1680.952" timestamp="1629390578459" />
+    <state width="1638" height="337" key="GridCell.Tab.0.left" timestamp="1629390578459">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state width="1878" height="287" key="GridCell.Tab.0.left/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629188772126" />
-    <state width="1638" height="337" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1629388053630" />
-    <state width="1638" height="337" key="GridCell.Tab.0.right" timestamp="1629388053630">
+    <state width="1638" height="337" key="GridCell.Tab.0.left/0.23.1680.952@0.23.1680.952" timestamp="1629390578459" />
+    <state width="1638" height="337" key="GridCell.Tab.0.right" timestamp="1629390578460">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state width="1878" height="287" key="GridCell.Tab.0.right/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629188772127" />
-    <state width="1638" height="337" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1629388053630" />
+    <state width="1638" height="337" key="GridCell.Tab.0.right/0.23.1680.952@0.23.1680.952" timestamp="1629390578460" />
     <state x="801" y="282" key="RollbackChangesDialog" timestamp="1629124326962">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="801" y="282" key="RollbackChangesDialog/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124326962" />
-    <state x="529" y="255" key="Vcs.Push.Dialog.v2" timestamp="1629386399174">
+    <state x="529" y="255" key="Vcs.Push.Dialog.v2" timestamp="1629388129544">
       <screen x="0" y="23" width="1680" height="952" />
     </state>
     <state x="604" y="282" key="Vcs.Push.Dialog.v2/-1920.25.1920.1055/0.25.1920.1055/1920.-15.1792.1095@0.25.1920.1055" timestamp="1629124603368" />
-    <state x="529" y="255" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1629386399174" />
+    <state x="529" y="255" key="Vcs.Push.Dialog.v2/0.23.1680.952@0.23.1680.952" timestamp="1629388129544" />
     <state x="749" y="473" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1629275190812">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>

@@ -34,7 +34,7 @@ public class Ex1 {
       }
     }
 
-    return "";
+    return null;
   }
 
 
