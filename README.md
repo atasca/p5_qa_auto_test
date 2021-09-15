@@ -1,5 +1,9 @@
 # p5_qa_auto_test
 ---------------------------------------------------------------------------------------------------------------------------------------------
+DB Backup info: 
+
+	DB Este ca si cea initiala, au fost facute after de delete pentru a sterge parametri inserati in teste. 
+
 BD errors :
 
 	Visits :
