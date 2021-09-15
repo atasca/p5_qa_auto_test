@@ -1,6 +1,10 @@
 package com.pentalog.exercitiu1;
 
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+
 import static org.junit.Assert.assertEquals;
 
 
@@ -23,12 +27,18 @@ public class Ex1 {
 
 
   static String returneazaPrimulCuvantDuplicat () {
-    //rezolvare
-    return "rezultat";
+    String[] words = textDeCitit.split("[ ,]");
+    List<String> repetedWords = new ArrayList<>();
+    HashSet<String> uniqueWords = new HashSet<>();
+    for(String str:words) {
+      if (!uniqueWords.add(str))
+        repetedWords.add(str);
+    }
+    return repetedWords.get(0);
   }
 
 
   public static void verificaCuvantul (String rezultat) {
-    assertEquals("xxxx", rezultat);
+    assertEquals("car", rezultat);
   }
 }
