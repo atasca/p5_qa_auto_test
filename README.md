@@ -1,5 +1,5 @@
 # p5_qa_auto_test
-
+---------------------------------------------------------------------------------------------------------------------------------------------
 BD errors :
 	Visits :
 		coloanele visit_date si description nu trebuie sa fie nule
