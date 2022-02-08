@@ -20,7 +20,7 @@ public class DbConnection {
       connection = DriverManager.getConnection(
           "jdbc:postgresql://localhost:5432/petclinic",
           "postgres",
-          "Doxnet14@"
+          "postgress"
       );
 
     } catch (SQLException e) {
